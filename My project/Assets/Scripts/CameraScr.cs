@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class CameraCode
+public class CameraScr : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
-    public Transform playerBody;         
+    public Transform playerBody;
 
     float xRotation = 0f;
 

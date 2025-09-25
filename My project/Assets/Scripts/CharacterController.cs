@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(UnityEngine.CharacterController))]
-public class PlayerController : MonoBehaviour
+public class CharacterController : MonoBehaviour
 {
     [Header("Movement")]
     public float walkSpeed = 5f;
